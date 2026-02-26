@@ -1,4 +1,4 @@
-# Lab 2: Crea e Avvia un'App da Template (15 min)
+# Lab 2: Crea e Avvia un'App da Template
 
 ## Comandi da eseguire in sequenza
 

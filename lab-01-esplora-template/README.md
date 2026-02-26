@@ -1,4 +1,4 @@
-# Lab 1: Esplora i Template (10 min)
+# Lab 1: Esplora i Template
 
 ## Comandi da eseguire in sequenza
 

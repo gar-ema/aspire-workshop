@@ -1,0 +1,25 @@
+# ============================================================================
+# Lab 3 — Dipendenze Python aggiornate
+# Sostituisci TUTTO il contenuto di weather-app/app/pyproject.toml
+# ============================================================================
+
+[project]
+name = "weather-app"
+version = "0.1.0"
+description = "Weather forecast API with Redis caching"
+requires-python = ">=3.13"
+dependencies = [
+    # Framework web
+    "fastapi[standard]>=0.119.0",
+
+    # OpenTelemetry — telemetria automatica verso la Dashboard Aspire
+    "opentelemetry-distro>=0.59b0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.38.0",
+    "opentelemetry-instrumentation-fastapi>=0.59b0",
+
+    # NUOVO: instrumentazione Redis per le trace distribuite
+    "opentelemetry-instrumentation-redis>=0.59b0",
+
+    # NUOVO: client Redis
+    "redis>=6.4.0",
+]
